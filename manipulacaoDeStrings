@@ -1,0 +1,12 @@
+// Manipulação de strings
+
+var name = "Bruno Gomes Cavalcante"
+
+  if let index = name.firstIndex(of: " "){
+    var sobrenome = (name[index...])
+    var nome = (name[...index])
+    print(nome)
+    print(sobrenome)
+    print(name[...index] + "sousa")
+    print(index)
+  }
