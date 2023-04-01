@@ -1,0 +1,27 @@
+func soma(num1: Double, num2: Double) -> Double {
+  return num1 + num2
+}
+
+func multiply(_ number: Int, by multiplyer: Int = 2){
+  print(number * multiplyer)
+}
+print(soma(num1 : 10, num2 : 20))
+multiply(10)
+
+func imprimir(_ values: Int...){
+  print(values)
+}
+
+imprimir(10, 20, 30, 40, 3, 4, 4)
+
+func tst() {
+  print("DEU BOM PVT")
+}
+
+func room(completio: () -> Void) {
+  print("\nOlá meu parceiro")
+  completio()
+  print("funfô meu nobre")
+}
+
+room(completio: tst)
